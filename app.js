@@ -36,7 +36,7 @@ Complete the exercise in the space below:
 */
 
 function isCharAVowel(character) {
-    if (character === 'a' || character === 'e' || character === 'i' || character === 'o' ||character === 'u') {
+    if (character === 'a' || character === 'e' || character === 'i' || character === 'o' ||  character === 'u') {
         return 'true'
     }
     else {
@@ -264,8 +264,8 @@ This function should return the count of arguments passed to it when called.
 
 Complete the exercise in the space below:
 */
-function numArgs() {
-  return arguments.length;
+function numArgs(... arg) {
+  return arg.length;
 }
 
 console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
